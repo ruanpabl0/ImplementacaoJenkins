@@ -147,7 +147,7 @@ public class LoginSteps extends Utils {
 	
 	@Quando("clicar em assista a demonstracao")
 	public void clicar_em_assista_a_demonstracao() {
-	    logAct.acessaDemonst();
+	    //logAct.acessaDemonst();
 	}
 
 	@Quando("visualizar a tela seguinte")
