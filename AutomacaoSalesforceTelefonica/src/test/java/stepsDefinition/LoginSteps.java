@@ -124,13 +124,14 @@ public class LoginSteps extends Utils {
 			options.addArguments("--window-size=1920,1080");
 		}
 
-		driver = new ChromeDriver(options);
+//		driver = new ChromeDriver(options);
+		DesiredCapabilities cap = DesiredCapabilities.chrome();
+		WebDriver driver = new RemoteWebDriver(new URL ("http://192.168.1.41:4444/wd/hub"), cap);
 		actions = new Actions(driver);
 		logAct = new LoginActions(driver);
 		report = new Report(driver);
 		driver.manage().deleteAllCookies();
 		js = (JavascriptExecutor) driver;
-		driver.navigate().to("http://www.google.com");
 	}
 
 	@Dado("Que recebi a planilha de parametros para o {string}")
