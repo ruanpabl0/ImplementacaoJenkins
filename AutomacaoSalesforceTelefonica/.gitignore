@@ -1,0 +1,7 @@
+/target/
+/Evidencias/Prints/*.png
+/Evidencias/Relatorio/*.docx
+
+# Intellij
+.idea/
+*.iml

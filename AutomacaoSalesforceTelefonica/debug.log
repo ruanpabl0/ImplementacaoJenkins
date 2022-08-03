@@ -1,0 +1,7 @@
+[0217/152923.127:ERROR:file_io.cc(89)] ReadExactly: expected 120, observed 40
+[0217/164712.437:ERROR:settings.cc(325)] Settings version is not 1
+[0217/165718.647:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0228/141121.703:ERROR:file_io.cc(134)] WriteFile: O pipe está sendo fechado. (0xE8)
+[0305/083604.566:ERROR:process_info.cc(329)] VirtualQueryEx: Acesso negado. (0x5)
+[0305/083604.567:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0305/083604.567:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentou-se acessar um processo de saída. (0xc000010a)
