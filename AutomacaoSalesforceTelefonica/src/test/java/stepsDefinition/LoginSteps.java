@@ -130,6 +130,7 @@ public class LoginSteps extends Utils {
 		report = new Report(driver);
 		driver.manage().deleteAllCookies();
 		js = (JavascriptExecutor) driver;
+		driver.navigate().to("http://www.google.com");
 	}
 
 	@Dado("Que recebi a planilha de parametros para o {string}")
