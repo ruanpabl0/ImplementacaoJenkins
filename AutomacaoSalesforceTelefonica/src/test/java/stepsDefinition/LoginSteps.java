@@ -124,9 +124,7 @@ public class LoginSteps extends Utils {
 			options.addArguments("--window-size=1920,1080");
 		}
 
-//		driver = new ChromeDriver(options);
-		DesiredCapabilities cap = DesiredCapabilities.chrome();
-		WebDriver driver = new RemoteWebDriver(new URL ("http://192.168.1.41:4444/wd/hub"), cap);
+		driver = new ChromeDriver(options);
 		actions = new Actions(driver);
 		logAct = new LoginActions(driver);
 		report = new Report(driver);
